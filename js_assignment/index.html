@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img class="logo" src="OIP.jpg" >
+            <ul>
+                <li><img src="notification.png"></li>
+                <li><img src="inbox.png" alt=""></li>
+                <li><img src="video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-bx">
+                <img src="search.png" >
+                <input type="text" placeholder="Search">
+
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="R.png" >
+            </div>
+        </div>
+        <!-----------settings-menu---------->
+
+<div class="settings-menu" id="submenu">
+
+    <div id="dark-btn">
+        <span></span>
+    </div>
+
+    <div class="settings-menu-inner">
+        <div class="user-profile">
+                <img src="avata.png" >
+            <div>
+                <p>User Name</p>
+                <a href="#">See your profile</a>
+            </div>
+            </div>
+            <hr>
+        <div class="user-profile">
+                <img src="feedback.png" >
+            <div>
+                <p>Give Feedback</p>
+                <a href="#">Help us to improve the new design</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="settings-links">
+            <img src="setting.png" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+            <img src="help.png" class="settings-icon">
+            <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+            <img src="display.png" class="settings-icon">
+            <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+        </div>
+        <div class="settings-links">
+            <img src="logout.png" class="settings-icon">
+            <a href="#">LogOut <img src="arrow.png" width="10px"></a>
+        </div>
+    </div>          
+</div>
+</nav>
+    <div class="container">
+        <!-----------left-side---------->
+        <div class="left-sidebar">
+        
+            <div class="emp-links">
+                <a href="https://www.bing.com/ck/a?!&&p=f5ace84d7639da0dJmltdHM9MTY2NDQwOTYwMCZpZ3VpZD0wNGJiM2Q3MS03YmRmLTY3MzYtM2E0YS0yYzEyN2EyMzY2MzMmaW5zaWQ9NTE4NA&ptn=3&hsh=3&fclid=04bb3d71-7bdf-6736-3a4a-2c127a236633&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS8jIQ&ntb=1"><img src="news.png" alt="">Latest News</a>
+                <a href="#"><img src="friends.png" alt="">Friends</a>
+                <a href="https://www.bing.com/ck/a?!&&p=59fab95ea7949856JmltdHM9MTY2NDQwOTYwMCZpZ3VpZD0wNGJiM2Q3MS03YmRmLTY3MzYtM2E0YS0yYzEyN2EyMzY2MzMmaW5zaWQ9NTE3NQ&ptn=3&hsh=3&fclid=04bb3d71-7bdf-6736-3a4a-2c127a236633&u=a1aHR0cHM6Ly9zcGxhc2h0aGF0LmNvbS8&ntb=1"><img src="group.png" alt="">Group</a>
+                <a href="https://www.bing.com/aclk?ld=e8h-O34Z0oyirTi2yYLK-4LDVUCUw9BOstVvskzVd2oPEMHC25MLyUQgkwhIbG51njVvLadIGi5lWZCLxzXr56xfzrjl8nfkcI0cgmNAnmfql4rT-47sxp3FrP2RrjAO6a8qPF5q_B0iao3QQpPuJPRfxQ933gnV4Qv1Kmg6q7wBfvok4xZi2Kgs6cFX9gfyotWzQXkQ&u=aHR0cHMlM2ElMmYlMmZ3d3cuQWxpYmFiYS5jb20lM2ZzcmMlM2RzZW1fYmluZyUyNmZyb20lM2RzZW1fYmluZyUyNmNtcGduJTNkMzk4MTA5MTMyJTI2YWRncnAlM2QxMzA5NTE4NzUyMDA3MzA5JTI2dGd0JTNka3dkLTgxODQ1MTI2ODU2OTU0JTNhbG9jLTE4NSUyNkt3ZElEJTNkODE4NDUxMjY4NTY5NTQlMjZtdGNodHlwJTNkcCUyNmJkbXRjaHR5cCslM2RiYiUyNm50d3JrJTNkbyUyNmRldmljZSUzZGMlMjZjcmVhdGl2ZSUzZDgxODQ1MDA0MzMyODI0JTI2cDElM2RkZWZhdWx0JTI2cDIlM2RkZWZhdWx0JTI2cDMlM2RkZWZhdWx0JTI2UXVlcnklM2RhbGliYWJhJTI1MjB3ZWIlMjUyMGxpbmslMjZtc2Nsa2lkJTNkNzE1ZmFhZTFhZTIyMTAxMWMyMjBjOWQ0MTFhMzRlYTU&rlid=715faae1ae221011c220c9d411a34ea5&ntb=1"><img src="marketplace.png" alt="">marketplace</a>
+                <a href="https://www.bing.com/ck/a?!&&p=3a9768c2a5b13580JmltdHM9MTY2NDQwOTYwMCZpZ3VpZD0wNGJiM2Q3MS03YmRmLTY3MzYtM2E0YS0yYzEyN2EyMzY2MzMmaW5zaWQ9NTE2OA&ptn=3&hsh=3&fclid=04bb3d71-7bdf-6736-3a4a-2c127a236633&u=a1aHR0cDovL2hlc2dvYWwuY29tLw&ntb=1"><img src="watch.png" alt="">watch Football</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="hobbies">
+                <p>Let us know your Hobbies</p>
+                <div class="profile">
+                    <label>
+                        <span class="user">&#128100;</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <textarea  rows="3" placeholder="Add Caption💥!"></textarea>
+                <div class="profile">
+                    <label>
+                        <span class="user">&#128100;</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <textarea  rows="3" placeholder="Add Caption💥!"></textarea>
+                <div class="profile">
+                    <label>
+                        <span class="user">&#128100;</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <textarea  rows="2" placeholder="Add Caption💥!"></textarea>
+                <div class="profile">
+                    <label>
+                        <span class="user">&#128100;</span>
+                        <input type="file">
+                    </label>
+                </div>            
+                <textarea  rows="3" placeholder="Add Caption💥!"></textarea>
+            </div>
+        </div>
+         <!-----------main-content---------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="upload.png" >
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="avata.png" >
+                    <p>Heli Prajapati</p>
+                </div>
+                <div class="story story3">
+                    <img src="avata.png" >
+                    <p>Nelly Mpagi</p>
+                </div>
+                
+                <div class="story story4">
+                    <img src="avata.png" >
+                    <p>Harrison Mugoya</p>
+                </div>
+                <div class="story story5">
+                    <img src="avata.png" >
+                    <p>Elioda Muangi</p>
+                </div>
+            </div>
+
+            <div class="my-div">
+                <div class="profile">
+                    <label>
+                        <span class="user">&#128100;</span>
+                        <span class="camera">&#128247;</span>
+                        <input type="file">
+                    </label>
+                </div>
+            
+                <input type="file" class="file_upload_button">
+                <input type="file" class="file_upload_button v2">
+                
+            </div>
+            
+
+           
+
+</div>
+         <!-----------right-sidebar---------->
+        <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                       <h3>27</h3>
+                       <span>September</span> 
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p>National Parks</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                       <h3>30</h3>
+                       <span>October</span> 
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p>Roast & Rhyme</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                    <div class="sidebar-title">
+                        <h4>Advertisement</h4>
+                        <a href="#">Close</a>
+                    </div>
+                    <img src="advertisement.png" class="sidebar-ads">
+                    <div class="sidebar-title">
+                        <h4>Conversation</h4>
+                        <a href="#">Hide Chat</a>
+                    </div>
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="avata.png" alt="">
+                            </div>
+                            <p>Harrison Murenzi</p>
+                        </div>
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="avata.png" alt="">
+                            </div>
+                            <p>Heli Prajapati</p>
+                        </div>
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="avata.png" alt="">
+                            </div>
+                            <p>Mpagi Nelly</p>
+                        </div>
+
+
+
+                </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
